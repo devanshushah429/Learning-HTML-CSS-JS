@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* will strech to fill the size of cross axis */
+    /* by default it will be block level */
+    /* to use inline type flex display: inline-flex */
+    border: 6px solid black;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 40px 20px; */
+    align-content: flex-start;
+    /* justify-content is used to alignment along the main axis */
+    /* justify-content: flex-start; */
+    /* align-items: baseline; */
+    /* align-items are used to align the items in perpendicular direction */
+    /* flex-direction: column-reverse; */
+}
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1 {
+    background-color: blue;
+    padding-bottom: 3rem;
+}
+
+.item-2 {
+    background-color: red;
+    padding-bottom: 5rem;
+}
+
+.item-3 {
+    background-color: green;
+    padding-bottom: 3rem;
+}
+
+.item-4 {
+    background-color: pink;
+}
+
+.item-5 {
+    background-color: hotpink;
+}
+
+.item-6 {
+    background-color: brown;
+}
+
+.item-7 {
+    background-color: magenta;
+}
+
+.item-8 {
+    background-color: indigo;
+}
+
+.item-9 {
+    background-color: indianred;
+}
